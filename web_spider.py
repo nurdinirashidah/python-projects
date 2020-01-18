@@ -4,12 +4,12 @@
 #
 # Scan a target website
 #
-#!/usr/bin/env python
+# !/usr/bin/env python
 
 #reqs
 import requests
 import re
-import urlparse
+import urllib.parse
 import argparse
 
 
@@ -54,7 +54,7 @@ def extract_links(url):
 def crawl(url):
     href_links = extract_links(target_url)
     for link in href_links:
-        link = urlparse.urljoin(target_url, link)
+        link = urllib.parse.urljoin(target_url, link)
 
         if "#" in link:
             link = link.split("#")[0]
