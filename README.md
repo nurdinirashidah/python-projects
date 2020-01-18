@@ -87,7 +87,7 @@ If no password is found to match the username supplied:
 A simple python script to crawl a website and output all URLs located
 
 Usage:  
-`python web_spider.py -t TARGET`
+`python3 web_spider.py -t TARGET`
  
 The output will generate all links located on the target site *example below is IP of metasplotable*  
 ```
@@ -101,12 +101,6 @@ http://10.10.20.131/dav/
 ---
 <a name="todo"></a> 
 ## TODOs:
-
-- Update to python3 needed
-    - DNS Spoofer
-    - Port Scanner
-    - WebApp Login Cracker
-    - Web Spider
 
 - File Interceptor
     - Planned doc types
