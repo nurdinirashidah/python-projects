@@ -8,7 +8,7 @@
 #
 # Requires being MITM across network
 #
-#!/usr/bin/env python
+# !/usr/bin/env python
 
 #requirements 
 import netfilterqueue

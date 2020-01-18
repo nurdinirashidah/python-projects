@@ -8,7 +8,7 @@
 # the values in a table displaying IP and MAC
 # address of any host found on the network
 #
-#!/usr/bin/env python
+# !/usr/bin/env python
 
 #requirements
 import scapy.all as scapy
@@ -53,9 +53,9 @@ def scan(ip):
   return hosts_list
 
 def port_scan(results_list):
-  print('-' * 65)
+  print(('-' * 65))
   print("\t\tBeginning port scan on found hosts")
-  print('-' * 65)
+  print(('-' * 65))
 
   # for host in results_list:
   #   ports_results_list = []
@@ -74,12 +74,12 @@ def port_scan(results_list):
 
 
 def host_results(results_list):
-  print('-' * 65)
+  print(('-' * 65))
   print("\tResponding IP\t\t\tResponding MAC Address")
-  print('-' * 65)
+  print(('-' * 65))
 
   for host in results_list:
-    print("\t" + host["ip"] + "\t\t\t" + host["mac"])
+    print(("\t" + host["ip"] + "\t\t\t" + host["mac"]))
   
 def ports_results(portresults_list):
   for port in portresults_list:

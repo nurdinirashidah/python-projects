@@ -18,7 +18,7 @@
 Simple python program to spoof DNS
 
 Usage:  
-`python dns_spoof.py`
+`python3 dns_spoof.py`
 
 ---
 <a name="interceptor"></a>
@@ -61,7 +61,7 @@ Will return Responding IP and MAC Address of the scanned network range
 ### Port Scanner
 
 Usage:  
-`python portscan.py <ip>`
+`python3 portscan.py <ip>`
 
 Scans the top 1000 ports and returns ports found open
 
@@ -72,7 +72,7 @@ Scans the top 1000 ports and returns ports found open
 A simple login page cracker using a supplied username and wordlist file for passwords.  
 
 Usage:  
-`python login_cracker.py -t TARGET -u USER -w WORDLIST`
+`python3 login_cracker.py -t TARGET -u USER -w WORDLIST`
   
 The output will only generate if a password is found for the supplied username *does not verbose all attempted passwords*  
 `[+] Login found --> password`  
