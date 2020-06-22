@@ -1,10 +1,9 @@
 # Contributing
 
-I am open to anyone who wishes to contribue to this project. These scripts were built out of curiosity to learn python for ethical hacking, and would :heart: to see other's sharing fun tricks to make cyber security / ethical hacking fun to learn. 
+I am open to anyone who wishes to contribue to this project. These scripts were built out of curiosity to learn python for ethical hacking, and would :heart: to see other's sharing tricks to make python / cyber security / ethical hacking fun to learn. 
 
-I do however want to make it clear that I <b>CAN NOT</b> and <b>WILL NOT</b> be held responsibile for any actions you take using these scripts. They are strictly for educational purposes only; or for use in an environment in which you have express written consent of the target machine(s) owners and all required parties. Your usage of any scripts within this repository is to be deemed understanding of repercussions that can present themselves as a result leaving no other party reliable for your actions.
+<b>I only ask that you be familiar with what you are creating and not be a script kiddie. </b> - If you cannot explain what your script does, or why and how your script works, it will be rejected. 
 
-<b><em>If you are unfamiliar with Rules of Engagement (RoE) contents - please do not utilize or contribute to this repository.</b></em>
 
 ## Pull Request Process
 
