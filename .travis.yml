@@ -1,16 +1,9 @@
 language: python
+sudo: false
 python:
-  - "2.7"
-  - "3.8"
-  # PyPy versions
-  - "pypy"   # currently Python 2.7.13, PyPy 7.1.1
-  - "pypy3"  # currently Python 3.6.1,  PyPy 7.1.1-beta0
-# command to install dependencies
-install:
-  - pip install -r requirements.txt
-  - pip install .
-# command to run tests
-script: pytest
+- 2.7
+- 3.4
+script: py.test -v
   
 after_success:
 - bash <(curl -s https://scripts.scantist.com/ci-travis.sh)
