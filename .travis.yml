@@ -1,17 +1,32 @@
+# Disable sudo to speed up the build
+sudo: false
+
+# Set the build language to Python
 language: python
+
+# Set the python version to 2.7
 python:
   - 2.7
   - 3.5
   - 3.6
+  
 before_install:
   - python --version
   - pip install -U pip
   - pip install -U pytest
   - pip install codecov
+  
 install:
   - pip install ".[test]" . # install package + test dependencies
+  
 script: pytest # run tests
-after_success:
-  - codecov # submit coverage
+
 after_success:
 - bash <(curl -s https://scripts.scantist.com/ci-travis.sh)
+
+
+# Install the codecov pip dependency
+#install:
+# - pip install codecov
+
+
